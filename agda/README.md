@@ -17,6 +17,14 @@ Agda is a dependently typed functional programming language based on intuitionis
 ## Repository
 
 
+## Como Executar
+
+Para verificar o código de exemplo:
+
+```bash
+agda HelloWorld.agda
+```
+
 ## Basic Syntax
 
 ```agda
