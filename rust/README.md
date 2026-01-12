@@ -23,7 +23,7 @@ cargo run
 ## Exercise Checklist to Learn Rust
 
 ### Basics
-- [ ] Hello World - print message to console
+- [x] Hello World - print message to console
 - [ ] Variables and mutability - use `let` and `let mut`
 - [ ] Data types - integers, floats, booleans, characters
 - [ ] Functions - create and call functions with parameters and return values
