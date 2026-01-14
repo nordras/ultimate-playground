@@ -44,6 +44,8 @@ fn main() {
     let isize_num: isize = -1000; 
     let usize_num: usize = 1000;  
     println!("Architecture-dependent: isize={}, usize={}", isize_num, usize_num);
+
+    // TODO Check advantages of using signed vs unsigned integers and architecture-dependent types
 }
 
     
