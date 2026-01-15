@@ -46,7 +46,17 @@ fn main() {
     println!("Architecture-dependent: isize={}, usize={}", isize_num, usize_num);
 
     // TODO Check advantages of using signed vs unsigned integers and architecture-dependent types
+
+    // Floats
+    let f32_num: f32 = 3.14159; // 32-bit float
+    let f64_num: f64 = 2.718281828459045; // 64-bit float (default)
+    println!("Floats: f32={}, f64={}", f32_num, f64_num);
+    
+    // Booleans
+    let is_rust_fun: bool = true;
+    let is_learning: bool = false;
+    println!("Booleans: is_rust_fun={}, is_learning={}", is_rust_fun, is_learning);
 }
 
-    
+
  
