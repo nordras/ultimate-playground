@@ -1,137 +1,138 @@
-Frontend / JavaScript Resources
-JavaScript Technologies
-Tech
-Nodejs
-Typescript
-Express
-Angular
-React
-Vue
-RxJS
-RxFiddle
-Webpack
-Webpack-monitor
-yarn
-Gulp
-Yoman
-Flow
-Lodash
-Ramda
-Ramda Fantasy
-kea
-Redux
-redux-transform
-redux-offline
-Redux-Saga
-react-autocompletely
-react-atmo
-react-content-loader
-react-snap
-React PWA
-ReactShadow
-react-bits
-graphql-voyager
-react-traverse
-React-Sight
-React-Virgin
-react-intl
-React-AR
-jsLingui
-svgr
-Mobx
-Xstream
-Hammerjs
-D3
-Emotion
-popmotion
-browserify
-Jasmine
-chai
-mocha
-Protractor
-phantomjs
-Immutable.js
-resilient.js
-Riot
-Meteor
-Ember
-Rendr
-three
-T3
-p5
-Babel
-babel-plugin-preval
-Electron
-html-to-react-components
-React-Native
-lottie-react-native
-Argon
-Primrose
-React-VR
-ink
-Chromeless
-One-Loader
-Vuera
-Vue-Model
-Loopback-Next
-lodash-webpack-plugin
-DeepleatnJS
-mlhelper
-image-trace-loader
-frappe-charts
-svg-fill-loader
-cesium
-jSchema
-serverjs
-create-react-kotlin-app
-tufte-css
-YamUI
-react-tv
-luxon
-node-prune
-date-fns
-Books
-Principles of Software Architecture Modernization
-Continuous Modernization
-JavaScript: The Definitive Guide
-Node.js Design Patterns
-Web Development with Node and Express
-Learning React
-Pro Angular
-Flux Architecture
-You Don’t Know JS
-Mostly Adequate Guide
-How to Learn JavaScript Properly
-Links
-Eloquent JavaScript - 4th edition (2024)
-CSS Hell
-HackerNoon
-Flux
-Dan Abramov Twitter
-Ben Lesh Twitter
-Michael Jackson Twitter
-Brendan Eich Twitter
-dshaw Twitter
-ladyleet Twitter
-Awesome JavaScript
-Awesome Node.js
-Slack Engineering
-Codeship Blog
-AngularJS Blog
-React Blog
-MS Edge Dev Blog
-Getting Started with Redux
-Asynchronous JavaScript with Async Await
-Grab Front-End Guide
-React Redux Cheatsheet
-React Native Radio
-Hello p5.js
-Elevator Saga
-React Armory - React Basics
-Clean Code JavaScript
-Awesome Vue
-Modern Frontend Hacking Cheatsheets
-WebGL Math
-JavaScript Promises Paper
-React Training Patterns
-AngularSpree
+# Frontend / JavaScript Resources
+
+## JavaScript Technologies
+
+- [ ] Nodejs
+- [ ] Typescript
+- [ ] Express
+- [ ] Angular
+- [x] React
+- [ ] Vue
+- [ ] RxJS
+- [ ] RxFiddle
+- [ ] Webpack
+- [ ] Webpack-monitor
+- [ ] yarn
+- [ ] Gulp
+- [ ] Yoman
+- [ ] Flow
+- [ ] Lodash
+- [ ] Ramda
+- [ ] Ramda Fantasy
+- [ ] kea
+- [ ] Redux
+- [ ] redux-transform
+- [ ] redux-offline
+- [ ] Redux-Saga
+- [ ] react-autocompletely
+- [ ] react-atmo
+- [ ] react-content-loader
+- [ ] react-snap
+- [ ] React PWA
+- [ ] ReactShadow
+- [ ] react-bits
+- [ ] graphql-voyager
+- [ ] react-traverse
+- [ ] React-Sight
+- [ ] React-Virgin
+- [ ] react-intl
+- [ ] React-AR
+- [ ] jsLingui
+- [ ] svgr
+- [ ] Mobx
+- [ ] Xstream
+- [ ] Hammerjs
+- [ ] D3
+- [ ] Emotion
+- [ ] popmotion
+- [ ] browserify
+- [ ] Jasmine
+- [ ] chai
+- [ ] mocha
+- [ ] Protractor
+- [ ] phantomjs
+- [ ] Immutable.js
+- [ ] resilient.js
+- [ ] Riot
+- [ ] Meteor
+- [ ] Ember
+- [ ] Rendr
+- [ ] three
+- [ ] T3
+- [ ] p5
+- [ ] Babel
+- [ ] babel-plugin-preval
+- [ ] Electron
+- [ ] html-to-react-components
+- [ ] React-Native
+- [ ] lottie-react-native
+- [ ] Argon
+- [ ] Primrose
+- [ ] React-VR
+- [ ] ink
+- [ ] Chromeless
+- [ ] One-Loader
+- [ ] Vuera
+- [ ] Vue-Model
+- [ ] Loopback-Next
+- [ ] lodash-webpack-plugin
+- [ ] DeepleatnJS
+- [ ] mlhelper
+- [ ] image-trace-loader
+- [ ] frappe-charts
+- [ ] svg-fill-loader
+- [ ] cesium
+- [ ] jSchema
+- [ ] serverjs
+- [ ] create-react-kotlin-app
+- [ ] tufte-css
+- [ ] YamUI
+- [ ] react-tv
+- [ ] luxon
+- [ ] node-prune
+- [ ] date-fns
+## Books
+- [ ] Principles of Software Architecture Modernization
+- [ ] Continuous Modernization
+- [ ] JavaScript: The Definitive Guide
+- [ ] Node.js Design Patterns
+- [ ] Web Development with Node and Express
+- [ ] Learning React
+- [ ] Pro Angular
+- [ ] Flux Architecture
+- [ ] You Don't Know JS
+- [ ] Mostly Adequate Guide
+- [ ] How to Learn JavaScript Properly
+## Links
+- [ ] Eloquent JavaScript - 4th edition (2024)
+- [ ] CSS Hell
+- [ ] HackerNoon
+- [ ] Flux
+- [ ] Dan Abramov Twitter
+- [ ] Ben Lesh Twitter
+- [ ] Michael Jackson Twitter
+- [ ] Brendan Eich Twitter
+- [ ] dshaw Twitter
+- [ ] ladyleet Twitter
+- [ ] Awesome JavaScript
+- [ ] Awesome Node.js
+- [ ] Slack Engineering
+- [ ] Codeship Blog
+- [ ] AngularJS Blog
+- [ ] React Blog
+- [ ] MS Edge Dev Blog
+- [ ] Getting Started with Redux
+- [ ] Asynchronous JavaScript with Async Await
+- [ ] Grab Front-End Guide
+- [ ] React Redux Cheatsheet
+- [ ] React Native Radio
+- [ ] Hello p5.js
+- [ ] Elevator Saga
+- [ ] React Armory - React Basics
+- [ ] Clean Code JavaScript
+- [ ] Awesome Vue
+- [ ] Modern Frontend Hacking Cheatsheets
+- [ ] WebGL Math
+- [ ] JavaScript Promises Paper
+- [ ] React Training Patterns
+- [ ] AngularSpree
