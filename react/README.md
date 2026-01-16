@@ -1,5 +1,5 @@
 ## Core Learning JavaScript
-- [ ] ES6
+- [x] ES6
 - [ ] How nodejs Reactor Pattern/Architecture works
 - [ ] Promises, Async/Await
 - [ ] Classes, Objects, Arrays, Map and Set, JSON
