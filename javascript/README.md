@@ -1,138 +1,137 @@
 # Frontend / JavaScript Resources
 
-## JavaScript Technologies
+Todos os itens abaixo têm uma pasta no mesmo subnível em items/.
 
-- [ ] Nodejs
-- [ ] Typescript
-- [ ] Express
-- [ ] Angular
-- [x] React
-- [ ] Vue
-- [ ] RxJS
-- [ ] RxFiddle
-- [ ] Webpack
-- [ ] Webpack-monitor
-- [ ] yarn
-- [ ] Gulp
-- [ ] Yoman
-- [ ] Flow
-- [ ] Lodash
-- [ ] Ramda
-- [ ] Ramda Fantasy
-- [ ] kea
-- [ ] Redux
-- [ ] redux-transform
-- [ ] redux-offline
-- [ ] Redux-Saga
-- [ ] react-autocompletely
-- [ ] react-atmo
-- [ ] react-content-loader
-- [ ] react-snap
-- [ ] React PWA
-- [ ] ReactShadow
-- [ ] react-bits
-- [ ] graphql-voyager
-- [ ] react-traverse
-- [ ] React-Sight
-- [ ] React-Virgin
-- [ ] react-intl
-- [ ] React-AR
-- [ ] jsLingui
-- [ ] svgr
-- [ ] Mobx
-- [ ] Xstream
-- [ ] Hammerjs
-- [ ] D3
-- [ ] Emotion
-- [ ] popmotion
-- [ ] browserify
-- [ ] Jasmine
-- [ ] chai
-- [ ] mocha
-- [ ] Protractor
-- [ ] phantomjs
-- [ ] Immutable.js
-- [ ] resilient.js
-- [ ] Riot
-- [ ] Meteor
-- [ ] Ember
-- [ ] Rendr
-- [ ] three
-- [ ] T3
-- [ ] p5
-- [ ] Babel
-- [ ] babel-plugin-preval
-- [ ] Electron
-- [ ] html-to-react-components
-- [ ] React-Native
-- [ ] lottie-react-native
-- [ ] Argon
-- [ ] Primrose
-- [ ] React-VR
-- [ ] ink
-- [ ] Chromeless
-- [ ] One-Loader
-- [ ] Vuera
-- [ ] Vue-Model
-- [ ] Loopback-Next
-- [ ] lodash-webpack-plugin
-- [ ] DeepleatnJS
-- [ ] mlhelper
-- [ ] image-trace-loader
-- [ ] frappe-charts
-- [ ] svg-fill-loader
-- [ ] cesium
-- [ ] jSchema
-- [ ] serverjs
-- [ ] create-react-kotlin-app
-- [ ] tufte-css
-- [ ] YamUI
-- [ ] react-tv
-- [ ] luxon
-- [ ] node-prune
-- [ ] date-fns
-## Books
-- [ ] Principles of Software Architecture Modernization
-- [ ] Continuous Modernization
-- [ ] JavaScript: The Definitive Guide
-- [ ] Node.js Design Patterns
-- [ ] Web Development with Node and Express
-- [ ] Learning React
-- [ ] Pro Angular
-- [ ] Flux Architecture
-- [ ] You Don't Know JS
-- [ ] Mostly Adequate Guide
-- [ ] How to Learn JavaScript Properly
-## Links
-- [ ] Eloquent JavaScript - 4th edition (2024)
-- [ ] CSS Hell
-- [ ] HackerNoon
-- [ ] Flux
-- [ ] Dan Abramov Twitter
-- [ ] Ben Lesh Twitter
-- [ ] Michael Jackson Twitter
-- [ ] Brendan Eich Twitter
-- [ ] dshaw Twitter
-- [ ] ladyleet Twitter
-- [ ] Awesome JavaScript
-- [ ] Awesome Node.js
-- [ ] Slack Engineering
-- [ ] Codeship Blog
-- [ ] AngularJS Blog
-- [ ] React Blog
-- [ ] MS Edge Dev Blog
-- [ ] Getting Started with Redux
-- [ ] Asynchronous JavaScript with Async Await
-- [ ] Grab Front-End Guide
-- [ ] React Redux Cheatsheet
-- [ ] React Native Radio
-- [ ] Hello p5.js
-- [ ] Elevator Saga
-- [ ] React Armory - React Basics
-- [ ] Clean Code JavaScript
-- [ ] Awesome Vue
-- [ ] Modern Frontend Hacking Cheatsheets
-- [ ] WebGL Math
-- [ ] JavaScript Promises Paper
-- [ ] React Training Patterns
-- [ ] AngularSpree
+- [ ] [ES6](items/es6/)
+- [ ] [Nodejs](items/nodejs/)
+- [ ] [Typescript](items/typescript/)
+- [ ] [Express](items/express/)
+- [ ] [Angular](items/angular/)
+- [x] [React](items/react/)
+- [ ] [Vue](items/vue/)
+- [ ] [RxJS](items/rxjs/)
+- [ ] [RxFiddle](items/rxfiddle/)
+- [ ] [Webpack](items/webpack/)
+- [ ] [Webpack-monitor](items/webpack-monitor/)
+- [ ] [yarn](items/yarn/)
+- [ ] [Gulp](items/gulp/)
+- [ ] [Yoman](items/yoman/)
+- [ ] [Flow](items/flow/)
+- [ ] [Lodash](items/lodash/)
+- [ ] [Ramda](items/ramda/)
+- [ ] [Ramda Fantasy](items/ramda-fantasy/)
+- [ ] [kea](items/kea/)
+- [ ] [Redux](items/redux/)
+- [ ] [redux-transform](items/redux-transform/)
+- [ ] [redux-offline](items/redux-offline/)
+- [ ] [Redux-Saga](items/redux-saga/)
+- [ ] [react-autocompletely](items/react-autocompletely/)
+- [ ] [react-atmo](items/react-atmo/)
+- [ ] [react-content-loader](items/react-content-loader/)
+- [ ] [react-snap](items/react-snap/)
+- [ ] [React PWA](items/react-pwa/)
+- [ ] [ReactShadow](items/reactshadow/)
+- [ ] [react-bits](items/react-bits/)
+- [ ] [graphql-voyager](items/graphql-voyager/)
+- [ ] [react-traverse](items/react-traverse/)
+- [ ] [React-Sight](items/react-sight/)
+- [ ] [React-Virgin](items/react-virgin/)
+- [ ] [react-intl](items/react-intl/)
+- [ ] [React-AR](items/react-ar/)
+- [ ] [jsLingui](items/jslingui/)
+- [ ] [svgr](items/svgr/)
+- [ ] [Mobx](items/mobx/)
+- [ ] [Xstream](items/xstream/)
+- [ ] [Hammerjs](items/hammerjs/)
+- [ ] [D3](items/d3/)
+- [ ] [Emotion](items/emotion/)
+- [ ] [popmotion](items/popmotion/)
+- [ ] [browserify](items/browserify/)
+- [ ] [Jasmine](items/jasmine/)
+- [ ] [chai](items/chai/)
+- [ ] [mocha](items/mocha/)
+- [ ] [Protractor](items/protractor/)
+- [ ] [phantomjs](items/phantomjs/)
+- [ ] [Immutable.js](items/immutable-js/)
+- [ ] [resilient.js](items/resilient-js/)
+- [ ] [Riot](items/riot/)
+- [ ] [Meteor](items/meteor/)
+- [ ] [Ember](items/ember/)
+- [ ] [Rendr](items/rendr/)
+- [ ] [three](items/three/)
+- [ ] [T3](items/t3/)
+- [ ] [p5](items/p5/)
+- [ ] [Babel](items/babel/)
+- [ ] [babel-plugin-preval](items/babel-plugin-preval/)
+- [ ] [Electron](items/electron/)
+- [ ] [html-to-react-components](items/html-to-react-components/)
+- [ ] [React-Native](items/react-native/)
+- [ ] [lottie-react-native](items/lottie-react-native/)
+- [ ] [Argon](items/argon/)
+- [ ] [Primrose](items/primrose/)
+- [ ] [React-VR](items/react-vr/)
+- [ ] [ink](items/ink/)
+- [ ] [Chromeless](items/chromeless/)
+- [ ] [One-Loader](items/one-loader/)
+- [ ] [Vuera](items/vuera/)
+- [ ] [Vue-Model](items/vue-model/)
+- [ ] [Loopback-Next](items/loopback-next/)
+- [ ] [lodash-webpack-plugin](items/lodash-webpack-plugin/)
+- [ ] [DeepleatnJS](items/deepleatnjs/)
+- [ ] [mlhelper](items/mlhelper/)
+- [ ] [image-trace-loader](items/image-trace-loader/)
+- [ ] [frappe-charts](items/frappe-charts/)
+- [ ] [svg-fill-loader](items/svg-fill-loader/)
+- [ ] [cesium](items/cesium/)
+- [ ] [jSchema](items/jschema/)
+- [ ] [serverjs](items/serverjs/)
+- [ ] [create-react-kotlin-app](items/create-react-kotlin-app/)
+- [ ] [tufte-css](items/tufte-css/)
+- [ ] [YamUI](items/yamui/)
+- [ ] [react-tv](items/react-tv/)
+- [ ] [luxon](items/luxon/)
+- [ ] [node-prune](items/node-prune/)
+- [ ] [date-fns](items/date-fns/)
+- [ ] [Principles of Software Architecture Modernization](items/principles-of-software-architecture-modernization/)
+- [ ] [Continuous Modernization](items/continuous-modernization/)
+- [ ] [JavaScript: The Definitive Guide](items/javascript-the-definitive-guide/)
+- [ ] [Node.js Design Patterns](items/nodejs-design-patterns/)
+- [ ] [Web Development with Node and Express](items/web-development-with-node-and-express/)
+- [ ] [Learning React](items/learning-react/)
+- [ ] [Pro Angular](items/pro-angular/)
+- [ ] [Flux Architecture](items/flux-architecture/)
+- [ ] [You Don't Know JS](items/you-dont-know-js/)
+- [ ] [Mostly Adequate Guide](items/mostly-adequate-guide/)
+- [ ] [How to Learn JavaScript Properly](items/how-to-learn-javascript-properly/)
+- [ ] [Eloquent JavaScript - 4th edition (2024)](items/eloquent-javascript-4th-edition-2024/)
+- [ ] [CSS Hell](items/css-hell/)
+- [ ] [HackerNoon](items/hackernoon/)
+- [ ] [Flux](items/flux/)
+- [ ] [Dan Abramov Twitter](items/dan-abramov-twitter/)
+- [ ] [Ben Lesh Twitter](items/ben-lesh-twitter/)
+- [ ] [Michael Jackson Twitter](items/michael-jackson-twitter/)
+- [ ] [Brendan Eich Twitter](items/brendan-eich-twitter/)
+- [ ] [dshaw Twitter](items/dshaw-twitter/)
+- [ ] [ladyleet Twitter](items/ladyleet-twitter/)
+- [ ] [Awesome JavaScript](items/awesome-javascript/)
+- [ ] [Awesome Node.js](items/awesome-nodejs/)
+- [ ] [Slack Engineering](items/slack-engineering/)
+- [ ] [Codeship Blog](items/codeship-blog/)
+- [ ] [AngularJS Blog](items/angularjs-blog/)
+- [ ] [React Blog](items/react-blog/)
+- [ ] [MS Edge Dev Blog](items/ms-edge-dev-blog/)
+- [ ] [Getting Started with Redux](items/getting-started-with-redux/)
+- [ ] [Asynchronous JavaScript with Async Await](items/asynchronous-javascript-with-async-await/)
+- [ ] [Grab Front-End Guide](items/grab-front-end-guide/)
+- [ ] [React Redux Cheatsheet](items/react-redux-cheatsheet/)
+- [ ] [React Native Radio](items/react-native-radio/)
+- [ ] [Hello p5.js](items/hello-p5js/)
+- [ ] [Elevator Saga](items/elevator-saga/)
+- [ ] [React Armory - React Basics](items/react-armory-react-basics/)
+- [ ] [Clean Code JavaScript](items/clean-code-javascript/)
+- [ ] [Awesome Vue](items/awesome-vue/)
+- [ ] [Modern Frontend Hacking Cheatsheets](items/modern-frontend-hacking-cheatsheets/)
+- [ ] [WebGL Math](items/webgl-math/)
+- [ ] [JavaScript Promises Paper](items/javascript-promises-paper/)
+- [ ] [React Training Patterns](items/react-training-patterns/)
+- [ ] [AngularSpree](items/angularspree/)

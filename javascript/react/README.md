@@ -1,100 +1,89 @@
-## Core Learning JavaScript
-- [x] ES6
-- [ ] How nodejs Reactor Pattern/Architecture works
-- [ ] Promises, Async/Await
-- [ ] Classes, Objects, Arrays, Map and Set, JSON
-- [ ] Tailwind
-## Core Learning React
-- [ ] React Architecture
-- [ ] Lifecycle Events
-- [ ] Hooks and custom hooks
-- [ ] Fetch vs Axios
-- [ ] Routing
-- [ ] Pagination
-- [ ] Service Workers
-- [ ] Web Components
-- [ ] Module Federation
-- [ ] Performance and Profiling
-- [ ] SWR
-- [ ] Local Storage
-- [ ] Session Storage
-- [ ] Cookies
-- [ ] IndexedDB
-- [ ] Drag and Drop API
-- [ ] Intersection Observer API
-- [ ] Mutation Observer API
-- [ ] Canvas API
-- [ ] Context Security Policy (CSP)
-## Advanced
-- [ ] Electron
-- [ ] Next.js
-- [ ] WebAssembly
-- [ ] Million.js
-## State Management
-- [ ] Redux
-- [ ] Context Api
-- [ ] MobX
-- [ ] Zustand
-- [ ] Recoil
-- [ ] Jotai
-- [ ] XState
-## Testing
-- [ ] React Testing Library
-- [ ] Jest
-- [ ] Cypress
-## Better React
-- [ ] Next
-- [ ] Astro
-- [ ] Elysia
-- [ ] Solid
-- [ ] Svelte
-- [ ] Fresh
-- [ ] Enhance
-## Better JS Runtime
-- [ ] Bun
-- [ ] Deno
-## The future, maybe?
-- [ ] HTMX
-- [ ] Typed HTML
-## OOAD Challenges - Round 1
-- [ ] (1) Build a TAX system where different products have different tax per state and year.
-- [ ] (2) Build a Logger Builder Router System where you can log into FS, ELK or any other log system where you can configure the logs to be sync or assync using the same API.
-- [ ] (3) Build Render Template where the same temple can be render in HTML, PDF or CSV.
-- [ ] (4) Build A Logistic System where you need to calculate different freigth prices based on volume, size and type of transportation i.e boat, truck, rail, prices are dynamic they keep changing.
-- [ ] (5) Build Restaurant Queue System Capable of telling how long each dish will take.
-- [ ] (6) Build Guitar Factory System where you can specify details of a guitar and the system creates a custon guitar for you with OS, Specs, Models. The system should keep track of Inventory.
-- [ ] (7) Build Ticket system, where you should be able to sell x number of ticker per different shows and choose the seats number, zone of the venue, date and respect maximun capacity.
-## OOAD Challenges Round 2
-- [ ] (1) Build a Grocery TODO List system (add item, remove, mark as done, do, re-do, listAll)
-- [ ] (2) Build a FileShare System (save files, restore files, delete files, listFiles, Search) with encryption
-- [ ] (3) Build a Note Taking system (add notes,save notes,edit notes, delete notes, sync)
-- [ ] (4) Build a Calendar system (book meetings, remove meetings, listMeetings, suggest best time for 2 people)
-- [ ] (5) Build a Redis clone client/server (Strings: set,get,remove,append, maps: set,get,keys,values)
-- [ ] (6) Build a Teacher's Class Organizer/Optimizer
-- [ ] (7) Build a Social Media Sharing Photo App (publish photos, tag photos, timeline, comments)
-## Code Challenges - Round 1
-- [ ] (1) Build your own Wheater App(show the wheater in celcius/fahrenheit, annimations)
-- [ ] (2) Build your own Trello(Simple Kanban board, create: cards, collumns, move, delete)
-- [ ] (3) Build your own Netflix(Stream the movies from youtube)
-- [ ] (4) Build your own Amazon Retail(List product, search, rate, recomendations)
-- [ ] (5) Build your own Linux Terminal (ls, cat, mkdir, touch, echo, cd)
-- [ ] (6) Build your own Slack (profile, chat rooms, notifications)
-- [ ] (7) Build your own Notability (list, make notes)
-## Code Challenges - Round 2
-- [ ] (1) Build your own Time Tracker App (start, stop, laps)
-- [ ] (2) Build your own Calendar App (Book meetings, edit, remove, sugest best time for 2 people)
-- [ ] (3) Build your own Benchmark App for JS code
-- [ ] (4) Build your own Flap Bird clone game
-- [ ] (5) Build your own MS Paint clone App
-- [ ] (6) Build your own Video Player
-- [ ] (7) Build your own React (render, pass props, mount/unmount hooks)
-## Code Challenges - Round 3
-- [ ] (1) Build your own Linter
-- [ ] (2) Build your own Testing Framework
-- [ ] (3) Build your own Fetch Library
-- [ ] (4) Build your own Data Faker
-- [ ] (5) Build your own Background Process Job Manager
-- [ ] (6) Build your own Http Server
-- [ ] (7) Build your own NodeJS Runtime
-- [ ] (8) Build your own Tailwind CSS
-- [ ] (9) Build your own React Renderer
+# React Learning Checklist
+
+Todos os itens abaixo têm uma pasta no mesmo subnível em items/.
+- [ ] [How nodejs Reactor Pattern/Architecture works](items/nodejs-reactor-pattern-architecture/)
+- [ ] [Promises, Async/Await](items/promises-async-await/)
+- [ ] [Classes, Objects, Arrays, Map and Set, JSON](items/classes-objects-arrays-map-and-set-json/)
+- [ ] [Tailwind](items/tailwind/)
+- [ ] [React Architecture](items/react-architecture/)
+- [ ] [Lifecycle Events](items/lifecycle-events/)
+- [ ] [Hooks and custom hooks](items/hooks-and-custom-hooks/)
+- [ ] [Fetch vs Axios](items/fetch-vs-axios/)
+- [ ] [Routing](items/routing/)
+- [ ] [Pagination](items/pagination/)
+- [ ] [Service Workers](items/service-workers/)
+- [ ] [Web Components](items/web-components/)
+- [ ] [Module Federation](items/module-federation/)
+- [ ] [Performance and Profiling](items/performance-and-profiling/)
+- [ ] [SWR](items/swr/)
+- [ ] [Local Storage](items/local-storage/)
+- [ ] [Session Storage](items/session-storage/)
+- [ ] [Cookies](items/cookies/)
+- [ ] [IndexedDB](items/indexeddb/)
+- [ ] [Drag and Drop API](items/drag-and-drop-api/)
+- [ ] [Intersection Observer API](items/intersection-observer-api/)
+- [ ] [Mutation Observer API](items/mutation-observer-api/)
+- [ ] [Canvas API](items/canvas-api/)
+- [ ] [Context Security Policy (CSP)](items/context-security-policy-csp/)
+- [ ] [Electron](items/electron/)
+- [ ] [Next.js](items/next-js/)
+- [ ] [WebAssembly](items/webassembly/)
+- [ ] [Million.js](items/million-js/)
+- [ ] [Redux](items/redux/)
+- [ ] [Context Api](items/context-api/)
+- [ ] [MobX](items/mobx/)
+- [ ] [Zustand](items/zustand/)
+- [ ] [Recoil](items/recoil/)
+- [ ] [Jotai](items/jotai/)
+- [ ] [XState](items/xstate/)
+- [ ] [React Testing Library](items/react-testing-library/)
+- [ ] [Jest](items/jest/)
+- [ ] [Cypress](items/cypress/)
+- [ ] [Next](items/next/)
+- [ ] [Astro](items/astro/)
+- [ ] [Elysia](items/elysia/)
+- [ ] [Solid](items/solid/)
+- [ ] [Svelte](items/svelte/)
+- [ ] [Fresh](items/fresh/)
+- [ ] [Enhance](items/enhance/)
+- [ ] [Bun](items/bun/)
+- [ ] [Deno](items/deno/)
+- [ ] [HTMX](items/htmx/)
+- [ ] [Typed HTML](items/typed-html/)
+- [ ] [Build a TAX system where different products have different tax per state and year.](items/ooad-round-1-tax-system/)
+- [ ] [Build a Logger Builder Router System where you can log into FS, ELK or any other log system where you can configure the logs to be sync or assync using the same API.](items/ooad-round-1-logger-builder-router-system/)
+- [ ] [Build Render Template where the same temple can be render in HTML, PDF or CSV.](items/ooad-round-1-render-template/)
+- [ ] [Build A Logistic System where you need to calculate different freigth prices based on volume, size and type of transportation i.e boat, truck, rail, prices are dynamic they keep changing.](items/ooad-round-1-logistic-system/)
+- [ ] [Build Restaurant Queue System Capable of telling how long each dish will take.](items/ooad-round-1-restaurant-queue-system/)
+- [ ] [Build Guitar Factory System where you can specify details of a guitar and the system creates a custon guitar for you with OS, Specs, Models. The system should keep track of Inventory.](items/ooad-round-1-guitar-factory-system/)
+- [ ] [Build Ticket system, where you should be able to sell x number of ticker per different shows and choose the seats number, zone of the venue, date and respect maximun capacity.](items/ooad-round-1-ticket-system/)
+- [ ] [Build a Grocery TODO List system (add item, remove, mark as done, do, re-do, listAll)](items/ooad-round-2-grocery-todo-list/)
+- [ ] [Build a FileShare System (save files, restore files, delete files, listFiles, Search) with encryption](items/ooad-round-2-file-share-system/)
+- [ ] [Build a Note Taking system (add notes,save notes,edit notes, delete notes, sync)](items/ooad-round-2-note-taking-system/)
+- [ ] [Build a Calendar system (book meetings, remove meetings, listMeetings, suggest best time for 2 people)](items/ooad-round-2-calendar-system/)
+- [ ] [Build a Redis clone client/server (Strings: set,get,remove,append, maps: set,get,keys,values)](items/ooad-round-2-redis-clone/)
+- [ ] [Build a Teacher's Class Organizer/Optimizer](items/ooad-round-2-teachers-class-organizer-optimizer/)
+- [ ] [Build a Social Media Sharing Photo App (publish photos, tag photos, timeline, comments)](items/ooad-round-2-social-media-sharing-photo-app/)
+- [ ] [Build your own Wheater App(show the wheater in celcius/fahrenheit, annimations)](items/code-challenges-round-1-weather-app/)
+- [ ] [Build your own Trello(Simple Kanban board, create: cards, collumns, move, delete)](items/code-challenges-round-1-trello/)
+- [ ] [Build your own Netflix(Stream the movies from youtube)](items/code-challenges-round-1-netflix/)
+- [ ] [Build your own Amazon Retail(List product, search, rate, recomendations)](items/code-challenges-round-1-amazon-retail/)
+- [ ] [Build your own Linux Terminal (ls, cat, mkdir, touch, echo, cd)](items/code-challenges-round-1-linux-terminal/)
+- [ ] [Build your own Slack (profile, chat rooms, notifications)](items/code-challenges-round-1-slack/)
+- [ ] [Build your own Notability (list, make notes)](items/code-challenges-round-1-notability/)
+- [ ] [Build your own Time Tracker App (start, stop, laps)](items/code-challenges-round-2-time-tracker-app/)
+- [ ] [Build your own Calendar App (Book meetings, edit, remove, sugest best time for 2 people)](items/code-challenges-round-2-calendar-app/)
+- [ ] [Build your own Benchmark App for JS code](items/code-challenges-round-2-benchmark-app/)
+- [ ] [Build your own Flap Bird clone game](items/code-challenges-round-2-flap-bird-clone/)
+- [ ] [Build your own MS Paint clone App](items/code-challenges-round-2-ms-paint-clone/)
+- [ ] [Build your own Video Player](items/code-challenges-round-2-video-player/)
+- [ ] [Build your own React (render, pass props, mount/unmount hooks)](items/code-challenges-round-2-react/)
+- [ ] [Build your own Linter](items/code-challenges-round-3-linter/)
+- [ ] [Build your own Testing Framework](items/code-challenges-round-3-testing-framework/)
+- [ ] [Build your own Fetch Library](items/code-challenges-round-3-fetch-library/)
+- [ ] [Build your own Data Faker](items/code-challenges-round-3-data-faker/)
+- [ ] [Build your own Background Process Job Manager](items/code-challenges-round-3-background-process-job-manager/)
+- [ ] [Build your own Http Server](items/code-challenges-round-3-http-server/)
+- [ ] [Build your own NodeJS Runtime](items/code-challenges-round-3-nodejs-runtime/)
+- [ ] [Build your own Tailwind CSS](items/code-challenges-round-3-tailwind-css/)
+- [ ] [Build your own React Renderer](items/code-challenges-round-3-react-renderer/)
