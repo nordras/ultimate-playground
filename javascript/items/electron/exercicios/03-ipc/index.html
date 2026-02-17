@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex3 - Basic IPC</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+      }
+      form {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+      }
+      input {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercise 3: Basic IPC</h1>
+
+    <form id="form-add">
+      <input id="a" type="number" placeholder="Number A" required />
+      <input id="b" type="number" placeholder="Number B" required />
+      <button type="submit">Add</button>
+    </form>
+
+    <p id="result">Result: -</p>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>
