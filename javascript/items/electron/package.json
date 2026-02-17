@@ -1,0 +1,16 @@
+{
+  "name": "electron-simple-exercises",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple Electron exercises",
+  "main": "exercicios/01-janela-basica/main.js",
+  "scripts": {
+    "ex1": "electron exercicios/01-janela-basica/main.js",
+    "ex2": "electron exercicios/02-preload/main.js",
+    "ex3": "electron exercicios/03-ipc/main.js",
+    "ex4": "electron exercicios/04-menu-dialog/main.js"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0"
+  }
+}
