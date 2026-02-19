@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.angular/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
