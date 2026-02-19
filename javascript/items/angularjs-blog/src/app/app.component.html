@@ -1,0 +1,14 @@
+<header class="header">
+  <div class="container">
+    <a class="brand" routerLink="/">Angular Blog</a>
+    <nav>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        Início
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main class="container content">
+  <router-outlet></router-outlet>
+</main>

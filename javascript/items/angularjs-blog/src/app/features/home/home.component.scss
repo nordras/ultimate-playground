@@ -1,0 +1,36 @@
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  color: #5b6477;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e6e9f0;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card h2 a {
+  text-decoration: none;
+}
+
+.meta {
+  color: #667085;
+  font-size: 0.9rem;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}

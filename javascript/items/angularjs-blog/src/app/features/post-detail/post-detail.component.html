@@ -1,0 +1,17 @@
+<ng-container *ngIf="post; else notFound">
+  <article class="post">
+    <a class="back" routerLink="/">← Voltar</a>
+    <h1>{{ post.title }}</h1>
+    <p class="meta">{{ post.author }} • {{ post.publishedAt | date: 'dd/MM/yyyy' }}</p>
+    <p>{{ post.content }}</p>
+
+    <div class="tags">
+      <span *ngFor="let tag of post.tags">#{{ tag }}</span>
+    </div>
+  </article>
+</ng-container>
+
+<ng-template #notFound>
+  <p>Post não encontrado.</p>
+  <a class="back" routerLink="/">Voltar para a lista</a>
+</ng-template>

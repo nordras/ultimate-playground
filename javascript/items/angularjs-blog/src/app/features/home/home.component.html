@@ -1,0 +1,13 @@
+<section>
+  <h1>Últimos posts</h1>
+  <p class="subtitle">Base inicial de um blog com Angular e rotas.</p>
+
+  <article class="card" *ngFor="let post of posts">
+    <h2>
+      <a [routerLink]="['/post', post.id]">{{ post.title }}</a>
+    </h2>
+    <p class="meta">{{ post.author }} • {{ post.publishedAt | date: 'dd/MM/yyyy' }}</p>
+    <p>{{ post.excerpt }}</p>
+    <a class="read-more" [routerLink]="['/post', post.id]">Ler post</a>
+  </article>
+</section>
