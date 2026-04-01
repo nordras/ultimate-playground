@@ -17,3 +17,7 @@ node example-basic.js
 node example-deque.js
 node example-history.js
 ```
+
+## Sources
+https://www.geeksforgeeks.org/dsa/doubly-linked-list/
+https://en.wikipedia.org/wiki/Doubly_linked_list
