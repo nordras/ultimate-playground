@@ -1,3 +1,4 @@
+// Determine whether two positive integer numbers are coprime.
 function gcd(first, second) {
   let a = Math.abs(first);
   let b = Math.abs(second);

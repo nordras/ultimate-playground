@@ -1,3 +1,4 @@
+// Determine the prime factors of a given positive integer.
 function primeFactors(number) {
   if (!Number.isInteger(number) || number < 2) {
     throw new Error('number must be an integer greater than 1');

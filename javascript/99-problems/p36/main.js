@@ -1,3 +1,4 @@
+// Calculate Euler's totient function phi(m) using the prime factorization of m.
 function primeFactorsMult(number) {
   if (!Number.isInteger(number) || number < 2) {
     throw new Error('number must be an integer greater than 1');

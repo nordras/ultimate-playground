@@ -1,3 +1,4 @@
+// Calculate Euler's totient function phi(m).
 function gcd(first, second) {
   let a = Math.abs(first);
   let b = Math.abs(second);
