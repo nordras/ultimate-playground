@@ -1,3 +1,4 @@
+// Determine whether a given integer number is prime.
 function isPrime(number) {
   if (!Number.isInteger(number) || number < 2) {
     return false;
