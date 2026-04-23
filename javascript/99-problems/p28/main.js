@@ -1,3 +1,4 @@
+// Sort a list of lists according to the length of sublists.
 function lsort(list) {
   if (!Array.isArray(list)) {
     throw new Error('List must be an array');
