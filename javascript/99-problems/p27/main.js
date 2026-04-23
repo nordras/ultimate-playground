@@ -1,3 +1,4 @@
+// Group the elements of a set into disjoint subsets.
 function combinations(count, list) {
   if (!Number.isInteger(count) || count < 0 || count > list.length) {
     throw new Error('count must be an integer between 0 and the list length');
