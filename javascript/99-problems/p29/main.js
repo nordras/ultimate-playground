@@ -1,3 +1,4 @@
+// Sort a list of lists according to the frequency of lengths of sublists.
 function lfsort(list) {
   if (!Array.isArray(list)) {
     throw new Error('List must be an array');
