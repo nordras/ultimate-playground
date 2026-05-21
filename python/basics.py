@@ -46,3 +46,26 @@ print(word[0])      # P
 print(word[-1])     # n
 print(word[0:3])    # Pyt
 print(word[::-1])   # nohtyP (reversed)
+
+# ------------------------------------------------------------
+# 3. Operators
+# ------------------------------------------------------------
+
+# Arithmetic
+print(10 + 3)   # 13
+print(10 - 3)   # 7
+print(10 * 3)   # 30
+print(10 / 3)   # 3.333... (true division)
+print(10 // 3)  # 3         (floor division)
+print(10 % 3)   # 1         (modulo / remainder)
+print(2 ** 10)  # 1024      (exponentiation)
+
+# Comparison
+print(5 > 3)    # True
+print(5 == 5)   # True
+print(5 != 4)   # True
+
+# Logical
+print(True and False)  # False
+print(True or False)   # True
+print(not True)        # False
