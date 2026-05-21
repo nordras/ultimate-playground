@@ -69,3 +69,24 @@ print(5 != 4)   # True
 print(True and False)  # False
 print(True or False)   # True
 print(not True)        # False
+
+# ------------------------------------------------------------
+# 4. Control Flow
+# ------------------------------------------------------------
+
+# if / elif / else
+grade = 75
+
+if grade >= 90:
+    print("A")
+elif grade >= 70:
+    print("B")
+elif grade >= 50:
+    print("C")
+else:
+    print("Failed")
+
+# Ternary operator
+status = "passed" if grade >= 50 else "failed"
+print(status)
+
