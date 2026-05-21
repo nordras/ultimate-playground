@@ -250,3 +250,34 @@ else:
 finally:
     print("The finally block always runs.")
 
+# ------------------------------------------------------------
+# 12. Classes and Object-Oriented Programming
+# ------------------------------------------------------------
+
+class Animal:
+    species = "Unknown"  # class attribute
+
+    def __init__(self, name, sound):
+        self.name = name    # instance attribute
+        self.sound = sound
+
+    def speak(self):
+        return f"{self.name} goes: {self.sound}!"
+
+    def __repr__(self):
+        return f"Animal(name={self.name!r})"
+
+
+class Dog(Animal):  # inheritance
+    def __init__(self, name):
+        super().__init__(name, "Woof")
+
+    def fetch(self, item):
+        return f"{self.name} fetched the {item}!"
+
+
+dog = Dog("Rex")
+print(dog.speak())        # Rex goes: Woof!
+print(dog.fetch("ball"))  # Rex fetched the ball!
+print(isinstance(dog, Animal))  # True
+
