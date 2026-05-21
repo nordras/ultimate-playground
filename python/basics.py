@@ -281,3 +281,30 @@ print(dog.speak())        # Rex goes: Woof!
 print(dog.fetch("ball"))  # Rex fetched the ball!
 print(isinstance(dog, Animal))  # True
 
+# ------------------------------------------------------------
+# 13. Built-in Functions
+# ------------------------------------------------------------
+
+nums = [3, 1, 4, 1, 5, 9, 2, 6]
+
+print(min(nums))           # 1
+print(max(nums))           # 9
+print(sum(nums))           # 31
+print(sorted(nums))        # [1, 1, 2, 3, 4, 5, 6, 9]
+
+# map and filter
+doubled = list(map(lambda x: x * 2, nums))
+greater = list(filter(lambda x: x > 4, nums))
+print(doubled)
+print(greater)
+
+# zip — combine iterables
+names = ["Alice", "Bob", "Carol"]
+scores = [9.5, 7.0, 8.3]
+for n, score in zip(names, scores):
+    print(f"{n}: {score}")
+
+# enumerate — index + value
+for i, fruit in enumerate(["apple", "banana", "grape"], start=1):
+    print(f"{i}. {fruit}")
+
