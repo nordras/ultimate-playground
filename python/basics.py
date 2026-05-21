@@ -120,3 +120,29 @@ for i in range(10):
     print(i, end=" ")
 print()
 
+# ------------------------------------------------------------
+# 6. Lists
+# ------------------------------------------------------------
+
+fruits = ["apple", "banana", "orange", "grape"]
+
+print(fruits[0])       # apple
+print(fruits[-1])      # grape
+print(fruits[1:3])     # ['banana', 'orange']
+
+fruits.append("mango")       # add to end
+fruits.insert(1, "kiwi")     # insert at position 1
+fruits.remove("banana")      # remove by value
+removed = fruits.pop()       # remove and return last item
+
+print(len(fruits))     # length
+print(sorted(fruits))  # sorted copy (does not modify original)
+fruits.sort()          # sort in place
+
+# List comprehension
+squares = [x ** 2 for x in range(6)]
+print(squares)  # [0, 1, 4, 9, 16, 25]
+
+evens = [x for x in range(20) if x % 2 == 0]
+print(evens)
+
