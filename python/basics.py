@@ -146,3 +146,16 @@ print(squares)  # [0, 1, 4, 9, 16, 25]
 evens = [x for x in range(20) if x % 2 == 0]
 print(evens)
 
+# ------------------------------------------------------------
+# 7. Tuples
+# ------------------------------------------------------------
+
+coordinates = (10, 20)
+point = (1, 2, 3)
+
+print(coordinates[0])  # 10
+x, y = coordinates     # unpacking
+print(x, y)
+
+# Tuples are immutable — coordinates[0] = 5 would raise a TypeError
+
