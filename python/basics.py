@@ -188,3 +188,19 @@ for key, value in person.items():
 squares_dict = {x: x ** 2 for x in range(5)}
 print(squares_dict)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 
+# ------------------------------------------------------------
+# 9. Sets
+# ------------------------------------------------------------
+
+numbers = {1, 2, 3, 4, 4, 5}  # duplicates are removed
+print(numbers)  # {1, 2, 3, 4, 5}
+
+numbers.add(6)
+numbers.discard(3)
+
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+print(a | b)  # union
+print(a & b)  # intersection
+print(a - b)  # difference
+
