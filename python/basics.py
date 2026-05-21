@@ -204,3 +204,49 @@ print(a | b)  # union
 print(a & b)  # intersection
 print(a - b)  # difference
 
+# ------------------------------------------------------------
+# 10. Functions
+# ------------------------------------------------------------
+
+def greet(name, greeting="Hello"):
+    """Return a personalized greeting."""
+    return f"{greeting}, {name}!"
+
+print(greet("Anna"))           # Hello, Anna!
+print(greet("Peter", "Hi"))    # Hi, Peter!
+
+# *args — variable number of positional arguments
+def add(*numbers):
+    return sum(numbers)
+
+print(add(1, 2, 3, 4))  # 10
+
+# **kwargs — variable number of keyword arguments
+def show_info(**data):
+    for key, value in data.items():
+        print(f"{key} = {value}")
+
+show_info(name="Lucas", age=28, language="Python")
+
+# Lambda (anonymous) functions
+double = lambda x: x * 2
+print(double(7))  # 14
+
+numbers_list = [5, 2, 8, 1, 9, 3]
+print(sorted(numbers_list, key=lambda x: -x))  # descending order
+
+# ------------------------------------------------------------
+# 11. Exception Handling
+# ------------------------------------------------------------
+
+try:
+    result = 10 / 0
+except ZeroDivisionError as e:
+    print(f"Error: {e}")
+except (TypeError, ValueError) as e:
+    print(f"Type/value error: {e}")
+else:
+    print("No errors!")
+finally:
+    print("The finally block always runs.")
+
