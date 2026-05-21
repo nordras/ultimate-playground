@@ -327,3 +327,22 @@ today = date.today()
 print(today)                                      # 2026-05-20
 print(datetime.now().strftime("%m/%d/%Y %H:%M"))  # formatted
 
+# ------------------------------------------------------------
+# 15. Reading and Writing Files
+# ------------------------------------------------------------
+
+# Writing
+with open("example.txt", "w", encoding="utf-8") as f:
+    f.write("Line 1\n")
+    f.write("Line 2\n")
+    f.writelines(["Line 3\n", "Line 4\n"])
+
+# Reading (all at once)
+with open("example.txt", "r", encoding="utf-8") as f:
+    content = f.read()
+    print(content)
+
+# Reading line by line
+with open("example.txt", "r", encoding="utf-8") as f:
+    for line in f:
+        print(line.strip())
