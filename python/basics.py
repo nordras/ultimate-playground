@@ -308,3 +308,22 @@ for n, score in zip(names, scores):
 for i, fruit in enumerate(["apple", "banana", "grape"], start=1):
     print(f"{i}. {fruit}")
 
+# ------------------------------------------------------------
+# 14. Modules and Imports
+# ------------------------------------------------------------
+
+import math
+import random
+from datetime import date, datetime
+
+print(math.pi)           # 3.14159...
+print(math.sqrt(16))     # 4.0
+print(math.factorial(5)) # 120
+
+print(random.randint(1, 100))          # random integer
+print(random.choice(["a", "b", "c"]))  # random element
+
+today = date.today()
+print(today)                                      # 2026-05-20
+print(datetime.now().strftime("%m/%d/%Y %H:%M"))  # formatted
+
