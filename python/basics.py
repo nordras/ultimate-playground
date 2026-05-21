@@ -159,3 +159,32 @@ print(x, y)
 
 # Tuples are immutable — coordinates[0] = 5 would raise a TypeError
 
+# ------------------------------------------------------------
+# 8. Dictionaries
+# ------------------------------------------------------------
+
+person = {
+    "name": "John",
+    "age": 25,
+    "city": "New York"
+}
+
+print(person["name"])              # John
+print(person.get("phone", "N/A"))  # N/A (missing key)
+
+person["email"] = "john@email.com"  # add key
+person["age"] = 26                  # update value
+del person["city"]                  # remove key
+
+print(person.keys())    # keys
+print(person.values())  # values
+print(person.items())   # key-value pairs
+
+# Iterating
+for key, value in person.items():
+    print(f"{key}: {value}")
+
+# Dict comprehension
+squares_dict = {x: x ** 2 for x in range(5)}
+print(squares_dict)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+
