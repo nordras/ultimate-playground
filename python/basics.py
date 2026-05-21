@@ -90,3 +90,33 @@ else:
 status = "passed" if grade >= 50 else "failed"
 print(status)
 
+# ------------------------------------------------------------
+# 5. Loops
+# ------------------------------------------------------------
+
+# for with range
+for i in range(5):
+    print(i, end=" ")  # 0 1 2 3 4
+print()
+
+# for with range(start, stop, step)
+for i in range(0, 10, 2):
+    print(i, end=" ")  # 0 2 4 6 8
+print()
+
+# while
+counter = 0
+while counter < 5:
+    print(counter, end=" ")
+    counter += 1
+print()
+
+# break and continue
+for i in range(10):
+    if i == 3:
+        continue  # skip 3
+    if i == 7:
+        break     # stop at 7
+    print(i, end=" ")
+print()
+
